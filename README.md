@@ -12,6 +12,17 @@
   2. 待实现功能
      1. 子模块支持
 
-### Customize configuration
+## 实现VueRouter
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  1. 已实现功能
+     1. 实现插件
+     2. 当前路由route响应式
+     3. 解析路由配置
+     4. 监听URL变化
+     5. 前进后退
+  2. 待实现功能
+     1. 生命周期钩子
+     2. 手动导航 push replace
+     3. 动态路由
+     4. history模式
+     5. 路由嵌套

@@ -1,14 +1,21 @@
 <template>
   <div id="app">
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
+    <p>$route: {{$route}}</p>
+    <hr/>
+    <router-view></router-view>
     <img alt="Vue logo" src="./assets/logo.png">
+    <hr/>
     <VuexDemo></VuexDemo>
+    <hr/>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import VuexDemo from './components/Vuex.vue'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
