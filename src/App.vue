@@ -1,8 +1,9 @@
 <template>
   <div id="app">
+    <h1>Vue Router Demo</h1>
     <router-link to="/">Home</router-link>
     <router-link to="/about">About</router-link>
-    <p>$route: {{$route}}</p>
+    <p>$route: {{$route && $route.path}}</p>
     <hr/>
     <router-view></router-view>
     <img alt="Vue logo" src="./assets/logo.png">

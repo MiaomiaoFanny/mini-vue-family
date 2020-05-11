@@ -14,6 +14,17 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About,
+    children: [
+      {
+        path: 'vegs',
+        name: 'Vegs',
+        component: Home,
+      }, {
+        path: '/fruits',
+        name: 'Fruits',
+        component: About,
+      }
+    ]
   }, {
     path: '*',
     name: 'NotFound',
